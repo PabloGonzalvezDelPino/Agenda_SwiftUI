@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33C39E832984223E001FE993 /* EventResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C39E822984223E001FE993 /* EventResponseModel.swift */; };
+		33C39E8529842272001FE993 /* EventPresentationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C39E8429842272001FE993 /* EventPresentationModel.swift */; };
+		33C39E8829842398001FE993 /* NewEventView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C39E8729842398001FE993 /* NewEventView-ViewModel.swift */; };
+		33DF0C0E297F0C56006C29D5 /* Agenda_Pablo_GonzalvezApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DF0BFE297F0C55006C29D5 /* Agenda_Pablo_GonzalvezApp.swift */; };
+		33DF0C0F297F0C56006C29D5 /* Agenda_Pablo_GonzalvezApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DF0BFE297F0C55006C29D5 /* Agenda_Pablo_GonzalvezApp.swift */; };
+		33DF0C12297F0C56006C29D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33DF0C00297F0C56006C29D5 /* Assets.xcassets */; };
+		33DF0C13297F0C56006C29D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33DF0C00297F0C56006C29D5 /* Assets.xcassets */; };
+		33DF0C1D297F0C6D006C29D5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DF0C1C297F0C6D006C29D5 /* LoginView.swift */; };
+		33DF0C22297F0CCB006C29D5 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DF0C21297F0CCB006C29D5 /* NetworkHelper.swift */; };
+		33DF0C23297F0CCB006C29D5 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DF0C21297F0CCB006C29D5 /* NetworkHelper.swift */; };
+		33DF0C25297F0D37006C29D5 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DF0C24297F0D37006C29D5 /* RegisterView.swift */; };
+		33DF0C26297F0D37006C29D5 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DF0C24297F0D37006C29D5 /* RegisterView.swift */; };
+		33DF0C28297F0EBA006C29D5 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DF0C27297F0EBA006C29D5 /* Components.swift */; };
+		33DF0C29297F0EBA006C29D5 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DF0C27297F0EBA006C29D5 /* Components.swift */; };
+		33DF0C2B297F101E006C29D5 /* AgendaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DF0C2A297F101E006C29D5 /* AgendaView.swift */; };
+		33DF0C2C297F101E006C29D5 /* AgendaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DF0C2A297F101E006C29D5 /* AgendaView.swift */; };
+		33DF0C2E297F103F006C29D5 /* NewEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DF0C2D297F103F006C29D5 /* NewEventView.swift */; };
+		33DF0C2F297F103F006C29D5 /* NewEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DF0C2D297F103F006C29D5 /* NewEventView.swift */; };
+		33E6ED33298304A900318305 /* LoginView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E6ED32298304A900318305 /* LoginView-ViewModel.swift */; };
+		33E6ED3629830EC800318305 /* RegisterView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E6ED3529830EC800318305 /* RegisterView-ViewModel.swift */; };
+		33E6ED3B298310DF00318305 /* AgendaView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E6ED3A298310DF00318305 /* AgendaView-ViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33C39E822984223E001FE993 /* EventResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventResponseModel.swift; sourceTree = "<group>"; };
+		33C39E8429842272001FE993 /* EventPresentationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPresentationModel.swift; sourceTree = "<group>"; };
+		33C39E8729842398001FE993 /* NewEventView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NewEventView-ViewModel.swift"; sourceTree = "<group>"; };
+		33DF0BFE297F0C55006C29D5 /* Agenda_Pablo_GonzalvezApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agenda_Pablo_GonzalvezApp.swift; sourceTree = "<group>"; };
+		33DF0C00297F0C56006C29D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33DF0C05297F0C56006C29D5 /* Agenda_Pablo_Gonzalvez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agenda_Pablo_Gonzalvez.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33DF0C0B297F0C56006C29D5 /* Agenda_Pablo_Gonzalvez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agenda_Pablo_Gonzalvez.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33DF0C0D297F0C56006C29D5 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		33DF0C1C297F0C6D006C29D5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		33DF0C21297F0CCB006C29D5 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		33DF0C24297F0D37006C29D5 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		33DF0C27297F0EBA006C29D5 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		33DF0C2A297F101E006C29D5 /* AgendaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaView.swift; sourceTree = "<group>"; };
+		33DF0C2D297F103F006C29D5 /* NewEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEventView.swift; sourceTree = "<group>"; };
+		33E6ED32298304A900318305 /* LoginView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginView-ViewModel.swift"; sourceTree = "<group>"; };
+		33E6ED3529830EC800318305 /* RegisterView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RegisterView-ViewModel.swift"; sourceTree = "<group>"; };
+		33E6ED3A298310DF00318305 /* AgendaView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AgendaView-ViewModel.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33DF0C02297F0C56006C29D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33DF0C08297F0C56006C29D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33C39E81298420EB001FE993 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				33C39E822984223E001FE993 /* EventResponseModel.swift */,
+				33C39E8429842272001FE993 /* EventPresentationModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		33C39E8629842352001FE993 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				33DF0C2D297F103F006C29D5 /* NewEventView.swift */,
+				33C39E8729842398001FE993 /* NewEventView-ViewModel.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		33DF0BF8297F0C54006C29D5 = {
+			isa = PBXGroup;
+			children = (
+				33DF0BFD297F0C55006C29D5 /* Shared */,
+				33DF0C0C297F0C56006C29D5 /* macOS */,
+				33DF0C06297F0C56006C29D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33DF0BFD297F0C55006C29D5 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				33E6ED302983047300318305 /* Presentation */,
+				33DF0C20297F0CBA006C29D5 /* Data */,
+				33DF0BFE297F0C55006C29D5 /* Agenda_Pablo_GonzalvezApp.swift */,
+				33DF0C00297F0C56006C29D5 /* Assets.xcassets */,
+				33DF0C27297F0EBA006C29D5 /* Components.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		33DF0C06297F0C56006C29D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33DF0C05297F0C56006C29D5 /* Agenda_Pablo_Gonzalvez.app */,
+				33DF0C0B297F0C56006C29D5 /* Agenda_Pablo_Gonzalvez.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33DF0C0C297F0C56006C29D5 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				33DF0C0D297F0C56006C29D5 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		33DF0C20297F0CBA006C29D5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				33DF0C21297F0CCB006C29D5 /* NetworkHelper.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		33E6ED302983047300318305 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				33C39E8629842352001FE993 /* Events */,
+				33C39E81298420EB001FE993 /* Models */,
+				33E6ED39298310BE00318305 /* Agenda */,
+				33E6ED3429830EB100318305 /* Register */,
+				33E6ED312983048B00318305 /* Login */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		33E6ED312983048B00318305 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				33DF0C1C297F0C6D006C29D5 /* LoginView.swift */,
+				33E6ED32298304A900318305 /* LoginView-ViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		33E6ED3429830EB100318305 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				33DF0C24297F0D37006C29D5 /* RegisterView.swift */,
+				33E6ED3529830EC800318305 /* RegisterView-ViewModel.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		33E6ED39298310BE00318305 /* Agenda */ = {
+			isa = PBXGroup;
+			children = (
+				33DF0C2A297F101E006C29D5 /* AgendaView.swift */,
+				33E6ED3A298310DF00318305 /* AgendaView-ViewModel.swift */,
+			);
+			path = Agenda;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33DF0C04297F0C56006C29D5 /* Agenda_Pablo_Gonzalvez (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33DF0C16297F0C56006C29D5 /* Build configuration list for PBXNativeTarget "Agenda_Pablo_Gonzalvez (iOS)" */;
+			buildPhases = (
+				33DF0C01297F0C56006C29D5 /* Sources */,
+				33DF0C02297F0C56006C29D5 /* Frameworks */,
+				33DF0C03297F0C56006C29D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Agenda_Pablo_Gonzalvez (iOS)";
+			productName = "Agenda_Pablo_Gonzalvez (iOS)";
+			productReference = 33DF0C05297F0C56006C29D5 /* Agenda_Pablo_Gonzalvez.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33DF0C0A297F0C56006C29D5 /* Agenda_Pablo_Gonzalvez (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33DF0C19297F0C56006C29D5 /* Build configuration list for PBXNativeTarget "Agenda_Pablo_Gonzalvez (macOS)" */;
+			buildPhases = (
+				33DF0C07297F0C56006C29D5 /* Sources */,
+				33DF0C08297F0C56006C29D5 /* Frameworks */,
+				33DF0C09297F0C56006C29D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Agenda_Pablo_Gonzalvez (macOS)";
+			productName = "Agenda_Pablo_Gonzalvez (macOS)";
+			productReference = 33DF0C0B297F0C56006C29D5 /* Agenda_Pablo_Gonzalvez.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33DF0BF9297F0C54006C29D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					33DF0C04297F0C56006C29D5 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					33DF0C0A297F0C56006C29D5 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 33DF0BFC297F0C54006C29D5 /* Build configuration list for PBXProject "Agenda_Pablo_Gonzalvez" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33DF0BF8297F0C54006C29D5;
+			productRefGroup = 33DF0C06297F0C56006C29D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33DF0C04297F0C56006C29D5 /* Agenda_Pablo_Gonzalvez (iOS) */,
+				33DF0C0A297F0C56006C29D5 /* Agenda_Pablo_Gonzalvez (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33DF0C03297F0C56006C29D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DF0C12297F0C56006C29D5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33DF0C09297F0C56006C29D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DF0C13297F0C56006C29D5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33DF0C01297F0C56006C29D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DF0C1D297F0C6D006C29D5 /* LoginView.swift in Sources */,
+				33C39E8529842272001FE993 /* EventPresentationModel.swift in Sources */,
+				33C39E832984223E001FE993 /* EventResponseModel.swift in Sources */,
+				33E6ED3B298310DF00318305 /* AgendaView-ViewModel.swift in Sources */,
+				33E6ED33298304A900318305 /* LoginView-ViewModel.swift in Sources */,
+				33DF0C25297F0D37006C29D5 /* RegisterView.swift in Sources */,
+				33DF0C2B297F101E006C29D5 /* AgendaView.swift in Sources */,
+				33DF0C28297F0EBA006C29D5 /* Components.swift in Sources */,
+				33DF0C22297F0CCB006C29D5 /* NetworkHelper.swift in Sources */,
+				33C39E8829842398001FE993 /* NewEventView-ViewModel.swift in Sources */,
+				33DF0C0E297F0C56006C29D5 /* Agenda_Pablo_GonzalvezApp.swift in Sources */,
+				33E6ED3629830EC800318305 /* RegisterView-ViewModel.swift in Sources */,
+				33DF0C2E297F103F006C29D5 /* NewEventView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33DF0C07297F0C56006C29D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DF0C26297F0D37006C29D5 /* RegisterView.swift in Sources */,
+				33DF0C2C297F101E006C29D5 /* AgendaView.swift in Sources */,
+				33DF0C29297F0EBA006C29D5 /* Components.swift in Sources */,
+				33DF0C23297F0CCB006C29D5 /* NetworkHelper.swift in Sources */,
+				33DF0C0F297F0C56006C29D5 /* Agenda_Pablo_GonzalvezApp.swift in Sources */,
+				33DF0C2F297F103F006C29D5 /* NewEventView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		33DF0C14297F0C56006C29D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33DF0C15297F0C56006C29D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		33DF0C17297F0C56006C29D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PGD.Agenda-Pablo-Gonzalvez";
+				PRODUCT_NAME = Agenda_Pablo_Gonzalvez;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33DF0C18297F0C56006C29D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PGD.Agenda-Pablo-Gonzalvez";
+				PRODUCT_NAME = Agenda_Pablo_Gonzalvez;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33DF0C1A297F0C56006C29D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PGD.Agenda-Pablo-Gonzalvez";
+				PRODUCT_NAME = Agenda_Pablo_Gonzalvez;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		33DF0C1B297F0C56006C29D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PGD.Agenda-Pablo-Gonzalvez";
+				PRODUCT_NAME = Agenda_Pablo_Gonzalvez;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33DF0BFC297F0C54006C29D5 /* Build configuration list for PBXProject "Agenda_Pablo_Gonzalvez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DF0C14297F0C56006C29D5 /* Debug */,
+				33DF0C15297F0C56006C29D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33DF0C16297F0C56006C29D5 /* Build configuration list for PBXNativeTarget "Agenda_Pablo_Gonzalvez (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DF0C17297F0C56006C29D5 /* Debug */,
+				33DF0C18297F0C56006C29D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33DF0C19297F0C56006C29D5 /* Build configuration list for PBXNativeTarget "Agenda_Pablo_Gonzalvez (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DF0C1A297F0C56006C29D5 /* Debug */,
+				33DF0C1B297F0C56006C29D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33DF0BF9297F0C54006C29D5 /* Project object */;
+}
