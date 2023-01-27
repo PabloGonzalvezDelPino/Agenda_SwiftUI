@@ -7,7 +7,6 @@
 
 import Foundation
 extension AgendaView {
-    // MARK: - Login Request
     class ViewModel: ObservableObject {
         
         @Published var events: [EventPresentationModel] = []

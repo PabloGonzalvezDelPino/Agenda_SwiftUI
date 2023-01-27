@@ -8,14 +8,12 @@
 import SwiftUI
 
 struct RegisterView: View {
-    // MARK: - Private Properties
+    // MARK: - Properties
     
     @State private var email: String = ""
     @State private var pass: String = ""
     @State private var rePass: String = ""
-    
     @ObservedObject var viewmodel : ViewModel = ViewModel()
-    
     @Environment(\.presentationMode) var mode: Binding<PresentationMode>
     
     // MARK: - Body

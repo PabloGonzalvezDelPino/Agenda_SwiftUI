@@ -14,7 +14,6 @@ struct BackgroundColorView: View {
             .ignoresSafeArea()
     }
 }
-
 struct TitleView: View {
     var title: String
     

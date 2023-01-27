@@ -8,12 +8,16 @@
 import SwiftUI
 
 struct NewEventView: View {
+    
+    //MARK: Var Declarations
+    
     @State var dateSelected: Date = Date()
     @State var title: String = ""
     @Binding var shouldShowNewEvent: Bool
     var completion: () -> () = {}
-    @Environment(\.presentationMode) var mode: Binding<PresentationMode>
+    @ObservedObject var viewmodel : ViewModel = ViewModel()
     
+    //MARK: Body
     var body: some View {
         ZStack{
             BackgroundColorView()
@@ -37,7 +41,7 @@ struct NewEventView: View {
                     .padding(.horizontal, 31)
                 
                 Button {
-                    postEvent()
+                    viewmodel.postEvent(title: title, date: dateSelected)
                 } label: {
                     Text("Add Event")
                         .foregroundColor(.white)
@@ -47,52 +51,18 @@ struct NewEventView: View {
                         .background(Color("DarkGreen"))
                         .cornerRadius(20)
                         .padding(.horizontal, 100)
-                    
-                }
-                
-            }
-            
-        }
-    }
-    func newEvent(name: String, date: Int) {
-        
-        let url = "https://superapi.netlify.app/api/db/eventos"
-        let dictionary: [String: Any] = [
-            "name" : name,
-            "date" : date
-        ]
-        
-        NetworkHelper.shared.requestProvider(url: url, params: dictionary) { data, response, error in
-            if let error = error {
-                onError(error: error.localizedDescription)
-            } else if let data = data, let response = response as? HTTPURLResponse {
-                if response.statusCode == 200 {
-                    onSuccess()
-                } else {
-                    onError(error: error?.localizedDescription ?? "Request Error")
                 }
             }
+        //MARK: Call to onSuccess
+        }.onReceive(viewmodel.$onSuccessBool) { newValue in
+            if newValue {
+                completion()
+                shouldShowNewEvent = false
+            }
         }
-    }
-    
-    func postEvent() {
-        let dateConverted = convertDateToInt(date: dateSelected)
-        newEvent(name: title, date: dateConverted)
-    }
-    
-    func convertDateToInt(date: Date) -> Int {
-        return Int(date.timeIntervalSince1970 * 1000)
-    }
-    
-    func onSuccess() {
-        completion()
-        shouldShowNewEvent = false
-    }
-    func onError(error: String) {
-        print(error)
     }
 }
-
+//MARK: Preview
 struct NewEventView_Previews: PreviewProvider {
     static var previews: some View {
         NewEventView(shouldShowNewEvent: .constant(true))

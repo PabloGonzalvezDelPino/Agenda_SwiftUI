@@ -9,13 +9,11 @@ import SwiftUI
 
 struct LoginView: View {
     
-    // MARK: - Private Properties
+    // MARK: - Properties
     
     @State private var email: String = ""
     @State private var pass: String = ""
-    
     @State public var shouldShowRegister: Bool = false
-    //@State public var shouldShowAgenda: Bool = false
     @ObservedObject var viewmodel : ViewModel = ViewModel()
     
     // MARK: - Body
